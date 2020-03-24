@@ -1,4 +1,7 @@
-# miband-chat
+# MiBand Chat
+
+MiBand Chat allows you to chat between 2 or more MiBands.
+The app is serverless, using [Blast](https://www.npmjs.com/package/blast-api).
 
 ## Project setup
 ```
