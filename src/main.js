@@ -9,7 +9,7 @@ if (window.location.hostname !== 'localhost' && window.location.protocol !== 'ht
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js').then((sw) => {
-    Vue.prototype.sw = sw;
+    window.sw = sw;
   });
 }
 

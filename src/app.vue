@@ -119,11 +119,11 @@ export default {
         }
 
         Notification.requestPermission(() => {
-          this.sw.showNotification('MiBand-Chat actif');
+          window.sw.showNotification('', { body: 'Connecté !' });
         });
 
         this.client.on('message', (UID, message) => {
-          if (UID !== this.UID) this.sw.showNotification(message);
+          if (UID !== this.UID) window.sw.showNotification('', { body: message });
         });
       }
     },
