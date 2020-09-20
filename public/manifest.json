@@ -3,7 +3,7 @@
   "short_name": "MiBand Chat",
   "theme_color": "#e98a98",
   "background_color": "#e98a98",
-  "display": "fullscreen",
+  "display": "standalone",
   "Scope": "/",
   "start_url": "/",
   "icons": [
